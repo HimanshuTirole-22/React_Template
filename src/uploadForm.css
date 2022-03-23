@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(41, 39, 39);
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+}
+.upload-container{
+    width: 80%;
+    margin: 50px auto;
+    color: rgb(196, 190, 190);
+}
+h1{
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 4px rgb(248, 7, 7), 0 0 25px rgb(201, 58, 40), 0 0 10px rgb(165, 141, 5);
+}
+
+
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+}
+
+
+.heading1{
+    font-size: 20px;
+    color: green;
+    font-weight: bolder;
+}
+
+.container-upload p{
+    margin-bottom: 50px;
+}
+
+
+.contactbox{
+    background: aliceblue;
+    display: flex;
+}
+
+.contactleft{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: rgb(30, 171, 214);
+    background-color: rgb(56, 68, 68);
+}
+
+.contactright{
+    flex-basis: 40%;
+   
+    background-color: rgb(90, 94, 82);
+    color: rgba(180, 235, 163, 0.897);
+}
+
+
+
+/* .inputrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.inputrow .inputgroup{
+    flex-basis: 45%; */
+/* } */
+
+.container-upload input{
+    width:100%;
+    border: none;
+    border-bottom: 3px solid rgb(112, 90, 109);
+    outline: none;
+    padding-bottom: 15px;
+    background:rgb(41, 34, 34);
+    color: rgb(230, 209, 21);
+}
+textarea{
+    width: 100%;
+    border: 2px solid rgb(119, 109, 122);
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background:rgb(41, 34, 34);
+    color: rgb(230, 209, 21);
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(30, 240, 41);
+}
+button{
+    background: rgb(39, 190, 39);
+    width: 150px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 5px 10px 0px rgb(191, 223, 51) ;
+}
+
+
+.contactleft h3{
+    color: rgba(180, 235, 163, 0.897);
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.moveto{
+    color: rgb(204, 208, 211);
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.moveto span{
+    color: aqua;
+    font-weight: bolder;
+}
